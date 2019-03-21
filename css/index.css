@@ -187,13 +187,13 @@ header {
   align-items: baseline;
 }
 header nav {
-  width: 35%;
+  width: 45%;
   display: flex;
   justify-content: space-around;
-  padding-right: 30px;
+  padding-right: 5px;
 }
 header nav a {
-  font-size: 14px;
+  font-size: 18px;
 }
 .footer {
   width: 100%;
@@ -262,4 +262,13 @@ header nav a {
 .home .content-pick .destination {
   width: 30%;
   margin-bottom: 30px;
+}
+.home .content-pick .destination .btn {
+  background: teal;
+  color: white;
+  font-size: 20px;
+  padding: 10px 15px;
+  text-align: center;
+  border-radius: 15px;
+  width: 80%;
 }
